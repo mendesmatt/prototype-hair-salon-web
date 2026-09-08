@@ -1,4 +1,3 @@
-/* HEADER SCROLL */
 const header = document.getElementById('header');
 const onScroll = () => {
   if (window.scrollY > 40) {
@@ -10,7 +9,6 @@ const onScroll = () => {
 window.addEventListener('scroll', onScroll);
 onScroll();
 
-/* MENU MOBILE */
 const menuBtn = document.getElementById('menuBtn');
 const mobileMenu = document.getElementById('mobileMenu');
 const iconMenu = document.getElementById('iconMenu');
@@ -28,7 +26,6 @@ menuBtn.addEventListener('click', () => {
 });
 document.querySelectorAll('.mobile-link').forEach(link => link.addEventListener('click', closeMenu));
 
-/* TABS DE SERVICOS */
 const tabBtns = document.querySelectorAll('.tab-btn');
 const panels = document.querySelectorAll('.tab-panel');
 tabBtns.forEach(btn => {
@@ -41,7 +38,6 @@ tabBtns.forEach(btn => {
   });
 });
 
-/* REVELACAO NO SCROLL */
 const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 if (!reduce && 'IntersectionObserver' in window) {
   const io = new IntersectionObserver((entries) => {

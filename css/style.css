@@ -1,7 +1,6 @@
 html { scroll-behavior: smooth; }
 body { background-color: #0E0E0F; }
 
-/* EYEBROW */
 .eyebrow {
   display: inline-flex;
   align-items: center;
@@ -25,7 +24,6 @@ body { background-color: #0E0E0F; }
   background: linear-gradient(90deg, #D4AF37, transparent);
 }
 
-/* BOTOES */
 .btn-gold {
   background: linear-gradient(180deg, #E8D9A8, #D4AF37);
   color: #17140F;
@@ -41,7 +39,6 @@ body { background-color: #0E0E0F; }
 }
 .btn-line:hover { background: rgba(212,175,55,.10); border-color: #D4AF37; }
 
-/* SECTIONS */
 .section-index {
   font-family: '"Playfair Display"', serif;
   font-size: 0.9rem;
@@ -49,7 +46,6 @@ body { background-color: #0E0E0F; }
   letter-spacing: 0.1em;
 }
 
-/* TABS */
 .tab-btn { position: relative; transition: color .3s ease; color: #9C978C; }
 .tab-btn.active { color: #F5F0E8; }
 .tab-btn.active::after {
@@ -65,7 +61,6 @@ body { background-color: #0E0E0F; }
 
 .price-row { display: grid; grid-template-columns: 1fr auto; align-items: baseline; gap: 1rem; }
 
-/* ANIMACOES E EFEITOS */
 .reveal { opacity: 0; transform: translateY(28px); transition: opacity .9s cubic-bezier(.2,.7,.2,1), transform .9s cubic-bezier(.2,.7,.2,1); }
 .reveal.in { opacity: 1; transform: none; }
 
